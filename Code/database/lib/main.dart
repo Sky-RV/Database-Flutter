@@ -92,6 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                         child: Ink(
                           decoration: BoxDecoration(
+                            backgroundBlendMode: BlendMode.luminosity,
                             gradient: LinearGradient(
                               colors: [
                                 Color(0xFF6F2C7B),
@@ -122,6 +123,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                         child: Ink(
                           decoration: BoxDecoration(
+                            backgroundBlendMode: BlendMode.hue,
                             gradient: LinearGradient(
                               colors: [
                                 Color(0xFF6F2C7B),
@@ -182,6 +184,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                         child: Ink(
                           decoration: BoxDecoration(
+                            backgroundBlendMode: BlendMode.exclusion,
                             gradient: LinearGradient(
                               colors: [
                                 Color(0xFF6F2C7B),
