@@ -26,6 +26,19 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
 
+      ////////////////////////////// APP BAR //////////////////////////////
+
+      appBar: AppBar(
+        backgroundColor: Color(0xFF5584AC),
+        title: Text('Database', style: TextStyle(color: Colors.white),),
+        actions: [
+          IconButton(
+            onPressed: (){},
+            icon: Icon(Icons.search),
+          )
+        ],
+      ),
+
       ////////////////////////////// BODy //////////////////////////////
       body: Container(
         decoration: BoxDecoration(
